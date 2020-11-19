@@ -1,0 +1,33 @@
+@import "../../../scss/variables.scss";
+
+.search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-container input {
+    margin: 0px; 
+    padding-left: 15px; 
+    height: 4em;
+    box-shadow: 5px 2px 5px 2px $secondary-color;
+}
+
+.search-container button{
+    position: absolute; 
+    top: 11px;
+    right: 11px;
+    height: 2.5em;
+    width: 10em;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: linear-gradient(90deg, $brandColor3, $brandColor4);
+    color: $primarytext-clr;
+    z-index: 2;
+}
+
+.footer-items ul li{
+    list-style-type: none;
+}
