@@ -1,5 +1,7 @@
 import React from 'react';
+import Achivment from '../Achivment/Achivment';
 import Header from '../Header/Header';
+import Project from '../Project/Project';
 import Service from '../Service/Service';
 
 const Landingpage = () => {
@@ -7,6 +9,8 @@ const Landingpage = () => {
         <div>
             <Header/>
             <Service/>
+            <Project/>
+            <Achivment/>
         </div>
     );
 };
