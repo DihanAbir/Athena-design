@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Pricing from "../Pricing/Pricing";
+import Service from '../Service/Service';
 
 const Landingpage = () => {
     return (
@@ -10,6 +11,7 @@ const Landingpage = () => {
             <Header />
             <Pricing />
             <Footer />
+            <Service/>
         </div>
     );
 };
