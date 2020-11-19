@@ -9,7 +9,7 @@ const Achivment = () => {
   return (
     <div className="container mb-5">
         <div className="row achivment-section">
-      <div className="col-xl-6 col-md-6 col-sm-12 left-para text-center border ">
+      <div className="col-xl-6 col-md-6 col-sm-12 left-para text-center">
         <h2>Our Achievements</h2>
             <small>
             It is a long established fact that a reader will be distracted by the

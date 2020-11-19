@@ -14,7 +14,7 @@ const Service = () => {
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat doloremque soluta, quis unde ipsa distinctio voluptatum.</p>
         </div>
       </div>
-      <div className="row d-flex align-items-center justify-content-around">
+      <div className="row service-section d-flex align-items-center justify-content-around">
         <div className="col-9 small-card col-sm-5 col-md-2 text-center">
           <img src={service1} alt=""/>
           <p className="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, quam!</p>
