@@ -14,7 +14,7 @@
   top: 11px;
   right: 11px;
   height: 2.5em;
-  width: 10em;
+  width: 30%;
   padding: 10px;
   border: none;
   outline: none;
@@ -31,4 +31,10 @@
 
 .footer-items ul li {
   list-style-type: none;
+}
+
+@media (max-width: 768px) {
+  .search-container button {
+    width: 50%;
+  }
 }

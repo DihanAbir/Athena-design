@@ -49,3 +49,9 @@
   background: linear-gradient(to right, #2198f3, #0bebff) !important;
   color: #333232;
 }
+
+@media (max-width: 768px) {
+  .card-deck .card:hover .card-body .card-button {
+    width: 80%;
+  }
+}

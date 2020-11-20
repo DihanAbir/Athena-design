@@ -14,7 +14,7 @@ const Project = () => {
                 <div className="col-6 project-description d-flex align-items-center">
                     <div className="text-left">
                         <h1 className="font-weight-bold" style={{ fontFamily: "'Noto Serif', serif" }}>
-                            Stay Runing & Project
+                            Stay Running & Project
                         </h1>
                         <p>
                             It is a long established fact that a reader will be distracted by the <br />
