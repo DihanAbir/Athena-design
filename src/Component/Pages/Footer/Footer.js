@@ -10,9 +10,9 @@ const Footer = () => {
     return (
         <>
             <div className="pt-5">
-                <h2 className="font-weight-bold" style={{ fontFamily: "'Playfair Display', serif" }}>
+                <h1 className="font-weight-bold" style={{ fontFamily: "'Noto Serif', serif" }}>
                     Get your design right, right now
-                </h2>
+                </h1>
                 <p>Be the first know our latest offers and updates!</p>
                 <div class="search-container my-5 w-50 mx-auto">
                     <input type="text" className="form-control" placeholder="Enter your email address" />
