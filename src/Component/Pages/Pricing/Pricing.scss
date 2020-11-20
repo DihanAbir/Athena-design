@@ -40,7 +40,7 @@
         border: 1px solid $secondary-color;
     }
 
-    .card-body .card-button{
+    .card-body .card-button {
         display: block;
         width: 60%;
         margin-bottom: 0;
@@ -50,11 +50,17 @@
         background: linear-gradient(to right, $brandColor3, $brandColor4);
         color: $primarytext-clr;
         border-radius: 20px 0 20px 0;
-        transition: 0.7s ;
+        transition: 0.7s;
     }
 
     .card-body .card-button:hover {
-            background: linear-gradient(to right, $brandColor4, $brandColor3)!important;
-            color: rgb(51, 50, 50);
+        background: linear-gradient(to right, $brandColor4, $brandColor3) !important;
+        color: rgb(51, 50, 50);
+    }
+}
+
+@media (max-width: 768px) {
+    .card-deck .card:hover .card-body .card-button {
+        width: 80%;
     }
 }
