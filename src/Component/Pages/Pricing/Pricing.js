@@ -4,10 +4,10 @@ import "./Pricing.scss";
 function Pricing() {
     return (
         <>
-            <div className="pricing-container">
-                <h2 className="font-weight-bold" style={{ fontFamily: "'Playfair Display', serif" }}>
+            <section className="pricing-container" id="pricing">
+                <h1 className="font-weight-bold" style={{ fontFamily: "'Playfair Display', serif" }}>
                     Choose Your Dedicated Team
-                </h2>
+                </h1>
                 <div class="card-deck m-5 row">
                     <div class="card col-sm-10">
                         <h1 className="font-weight-bold">$199</h1>
@@ -61,7 +61,7 @@ function Pricing() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     );
 }

@@ -9,6 +9,19 @@
   color: dimgray;
   padding: 55px 0;
 }
+.card-deck .card h5 {
+  margin-bottom: 15px;
+}
+.card-deck .card .title-bottom {
+  width: 70%;
+  border: 1px solid #0bebff;
+}
+.card-deck .card .card-body .card-text {
+  padding-bottom: 25px;
+}
+.card-deck .card .card-body .card-button {
+  display: none;
+}
 
 .card-deck .card:hover {
   border-radius: 5px;
@@ -16,29 +29,10 @@
   color: #000000;
   cursor: pointer;
 }
-
-.card-deck .card h5 {
-  margin-bottom: 15px;
-}
-
-.card-deck .card .title-bottom {
-  width: 70%;
-  border: 1px solid #0bebff;
-}
-
 .card-deck .card:hover .title-bottom {
   width: 70%;
   border: 1px solid #d3d3d3;
 }
-
-.card-deck .card .card-body .card-text {
-  padding-bottom: 25px;
-}
-
-.card-deck .card .card-body .card-button {
-  display: none;
-}
-
 .card-deck .card:hover .card-body .card-button {
   display: block;
   width: 60%;
@@ -46,7 +40,12 @@
   padding: 10px;
   border: none;
   outline: none;
-  background: linear-gradient(90deg, #0bebff, #2198f3);
+  background: linear-gradient(to right, #0bebff, #2198f3);
   color: #fff;
-  border-radius: 25px 0 25px 0;
+  border-radius: 20px 0 20px 0;
+  transition: 0.7s;
+}
+.card-deck .card:hover .card-body .card-button:hover {
+  background: linear-gradient(to right, #2198f3, #0bebff) !important;
+  color: #333232;
 }

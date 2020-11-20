@@ -1,0 +1,36 @@
+.header-section {
+  background-image: url("../../../image/banners/header-bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+}
+.header-section .navbar-brand img {
+  width: 100px;
+}
+.header-section .nav-link {
+  color: #0e0c0c;
+  margin-left: 5px;
+}
+.header-section .nav-link:hover {
+  color: #929292;
+}
+.header-section .link-btn {
+  color: #ffffff;
+}
+.header-section header img {
+  width: 100%;
+}
+
+.small-btn {
+  background: linear-gradient(to right, #48e1c2, #0cb8dc);
+  border: none;
+  border-radius: 20px 0 20px 0;
+  color: #ffffff;
+  padding: 10px 30px;
+  transition: 0.7s;
+}
+
+.small-btn:hover {
+  background: linear-gradient(to left, #48e1c2, #0cb8dc);
+  color: #333232;
+}

@@ -1,33 +1,40 @@
-.small-btn{
-    background: linear-gradient(to right, #48e1c2, #0cb8dc);
-    border: none;
-    border-radius: 20px 0px 20px 0px;
-    color: #ffffff;
-    padding: 10px 30px;
-}
-.header-section{
-    background-image: url('../../../image/banners/header-bg1.png');
+.header-section {
+    background-image: url("../../../image/banners/header-bg1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right top;
-    .navbar-brand{
-        img{
+    .navbar-brand {
+        img {
             width: 100px;
         }
     }
-    .nav-link{
+    .nav-link {
         color: rgb(14, 12, 12);
         margin-left: 5px;
     }
-    .nav-link:hover{
+    .nav-link:hover {
         color: #929292;
     }
-    .link-btn{
+    .link-btn {
         color: #ffffff;
     }
-    header{
-        img{
+    header {
+        img {
             width: 100%;
         }
     }
+}
+
+.small-btn {
+    background: linear-gradient(to right, #48e1c2, #0cb8dc);
+    border: none;
+    border-radius: 20px 0 20px 0;
+    color: #ffffff;
+    padding: 10px 30px;
+    transition: 0.7s;
+}
+
+.small-btn:hover {
+    background: linear-gradient(to left, #48e1c2, #0cb8dc);
+    color: rgb(51, 50, 50);
 }
